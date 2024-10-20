@@ -15,7 +15,7 @@ function App() {
       <Welcome/>
       <Hello/>
       <Greet name="ABC" heroname="XYZ"> 
-        <p>This is a children tag</p>
+        <p>This is a chisldren tag</p>
       </Greet>
       <Greet name="DEF" heroname="UVW">
         <button>Action</button>
