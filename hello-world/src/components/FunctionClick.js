@@ -7,7 +7,8 @@ function FunctionClick() {
     }
     return (
     <button  onClick={clickHandler}>click </button>
+	
   )
 }
 
-export default FunctionClick
+export default FunctionClick    

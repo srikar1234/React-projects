@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
@@ -14,11 +15,20 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
+import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComponent from './components/PureComponent';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
 	return (
     <div className="App">
-      <Greet></Greet>
+      {/* <Greet></Greet>
       
       <Welcome/>
       
@@ -49,7 +59,18 @@ function App() {
       <UserGreeting></UserGreeting>
       <NameList></NameList>
       <Stylesheet primary={false}></Stylesheet>
-      <Inline></Inline>
+      <Inline></Inline> */}
+      {/* <Form></Form>
+      <LifeCycleA></LifeCycleA>
+      <FragmentDemo></FragmentDemo>
+      <Table></Table>  */}
+      {/* <PureComponent></PureComponent>
+      <ParentComp></ParentComp>
+       */}
+
+       {/* <RefsDemo></RefsDemo> */}
+       <FocusInput></FocusInput>
+       <FRParentInput></FRParentInput>
     </div>
   );
 }
